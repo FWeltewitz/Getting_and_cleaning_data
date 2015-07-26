@@ -1,4 +1,3 @@
-
 ---
 title: "UCI_HAR_Tidy_Dataset_Codebook"
 author: "FWeltewitz"

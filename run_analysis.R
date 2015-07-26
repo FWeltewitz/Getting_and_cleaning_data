@@ -33,7 +33,7 @@
 run_analysis<-function(){
 
 # I am using the dplyr package for this project        
-#install.packages("dplyr")
+install.packages("dplyr")
 library(dplyr)
 
 # Read features file, which contains the variable names
@@ -82,12 +82,10 @@ df.summary      <- inner_join(df.activity,df.summary)
 df.summary      <- df.summary %>% select(-Activity.ID) %>% arrange(Activity)
 
 # Now give appropriate names to the variables in the tidy data frame
-newcolnames<-c(c(colnames(df.summary[1:2])),paste("Subject-mean-",colnames(df.summary[3:ncol(df.summary)]),sep=""))
+newcolnames             <-c(c(colnames(df.summary[1:2])),paste("Subject-mean-",colnames(df.summary[3:ncol(df.summary)]),sep=""))
 colnames(df.summary)    <-newcolnames
 
-df.summary
-
 # Write tidy dataset into working directory as a txt file
-#write.table(df.summary,"UCI_HAR_Dataset_Tidy.txt",row.names=FALSE)
+write.table(df.summary,"UCI_HAR_Dataset_Tidy.txt",row.names=FALSE)
 
 }

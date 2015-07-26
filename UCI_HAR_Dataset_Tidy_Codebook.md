@@ -66,119 +66,119 @@ WALKING_DOWNSTAIRS and WALKING_UPSTAIRS
 The ID of the subject undertaking the activity. Integer from 1 to 30
 
 * Subject-mean-tBodyAcc-mean()-XYZ<br>
-Average time domain body acceleratometer signal for on one of X, Y or Z axis 
+Average time domain body acceleratometer signal for on one of X, Y or Z axis. Obtained by subtracting gravity acceleration from total measurement. In standard gravity units "g", normalised to fall within [-1,1]. 
 
 * Subject-mean-tGravityAcc-mean()-XYZ<br>
-Average time domain gravity acceleratometer signal for on one of X, Y or Z axis 
+Average time domain gravity acceleratometer signal for on one of X, Y or Z axis. In standard gravity units "g", normalised to fall within [-1,1]. 
 
 * Subject-mean-tBodyAccJerk-mean()-XYZ<br>
 Average derived time domain body acceleratometer jerk signal for on one of 
-X, Y or Z axis
+X, Y or Z axis. Obtained by subtracting gravity acceleration from total measurement. In standard gravity units "g", normalised to fall within [-1,1].
 
 * Subject-mean-tBodyGyro-mean()-XYZ<br>
-Average time domain body gyro signal for on one of X, Y or Z axis 
+Average time domain body gyro signal for on one of X, Y or Z axis. Obtained by subtracting gravity acceleration from total measurement. In radians per second, normalised to fall within [-1,1]. 
 
 * Subject-mean-tBodyGyroJerk-mean()-XYZ<br>
-Average derived time domain body gyro jerk signal for on one of X, Y or Z axis
+Average derived time domain body gyro jerk signal for on one of X, Y or Z axis. Obtained by subtracting gravity acceleration from total measurement. In radians per second, normalised to fall within [-1,1].
 
 * Subject-mean-tBodyAccMag-mean()<br>
-Average time domain body acceleratometer signal magnitude
+Average time domain body acceleratometer signal magnitude.Obtained by subtracting gravity acceleration from total measurement. In standard gravity units "g", normalised to fall within [-1,1].
 
 * Subject-mean-tGravityAccMag-mean()<br>
-Average time domain gravity acceleratometer signal magnitude
+Average time domain gravity acceleratometer signal magnitude. In standard gravity units "g", normalised to fall within [-1,1].
 
 * Subject-mean-tBodyAccJerkMag-mean()<br>
-Average derived time domain body acceleratometer jerk signal magnitude
+Average derived time domain body acceleratometer jerk signal magnitude. Obtained by subtracting gravity acceleration from total measurement. In standard gravity units "g", normalised to fall within [-1,1].
 
 * Subject-mean-tBodyGyroMag-mean()<br>
-Average time domain body gyro signal magnitude
+Average time domain body gyro signal magnitude. Obtained by subtracting gravity acceleration from total measurement. In radians per second, normalised to fall within [-1,1].
 
 * Subject-mean-tBodyGyroJerkMag-mean()<br>
-Average derived time domain body gyro jerk signal magnitude
+Average derived time domain body gyro jerk signal magnitude. Obtained by subtracting gravity acceleration from total measurement. In radians per second, normalised to fall within [-1,1].
 
 * Subject-mean-fBodyAcc-mean()-XYZ<br>
 Average frequency domain body acceleratometer signal for on one of X, Y or Z 
-axis
+axis. Obtained by subtracting gravity acceleration from total measurement. In standard gravity units "g", normalised to fall within [-1,1].
 
 * Subject-mean-fBodyAccJerk-mean()-XYZ<br>
-Average frequency domain gravity acceleratometer signal for on one of X, Y or Z 
-axis
+Average derived frequency domain body acceleratometer jerk signal for on one of X, Y or Z 
+axis. Obtained by subtracting gravity acceleration from total measurement. In standard gravity units "g", normalised to fall within [-1,1].
 
 * Subject-mean-fBodyGyro-mean()-XYZ<br>
-Average frequency domain body gyro signal for on one of X, Y or Z axis
+Average frequency domain body gyro signal for on one of X, Y or Z axis. Obtained by subtracting gravity acceleration from total measurement. In radians per second, normalised to fall within [-1,1].
 
 * Subject-mean-fBodyAccMag-mean()<br>
-Average frequency domain body acceleratometer signal magnitude
+Average frequency domain body acceleratometer signal magnitude. Obtained by subtracting gravity acceleration from total measurement. In standard gravity units "g", normalised to fall within [-1,1].
 
 * Subject-mean-fBodyAccJerkMag-mean()<br>
-Average derived frequency domain body acceleratometer jerk signal magnitude
+Average derived frequency domain body acceleratometer jerk signal magnitude. Obtained by subtracting gravity acceleration from total measurement. In standard gravity units "g", normalised to fall within [-1,1].
 
 * Subject-mean-fBodyGyroMag-mean()<br>
-Average frequency domain body gyro signal magnitude
+Average frequency domain body gyro signal magnitude. Obtained by subtracting gravity acceleration from total measurement. In radians per second, normalised to fall within [-1,1].
 
 * Subject-mean-fBodyGyroJerkMag-mean()<br>
-Average derived frequency domain body gyro jerk signal magnitude
+Average derived frequency domain body gyro jerk signal magnitude. Obtained by subtracting gravity acceleration from total measurement. In radians per second, normalised to fall within [-1,1].
 
 * Subject-mean-tBodyAcc-std()-XYZ<br>
 Standard deviation of time domain body acceleratometer signals for on one of X, 
-Y or Z axis 
+Y or Z axis. In standard gravity units "g". 
 
 * Subject-mean-tGravityAcc-std()-XYZ<br>
 Standard deviation of time domain gravity acceleratometer signals for on one of 
-X, Y or Z axis 
+X, Y or Z axis. In standard gravity units "g". 
 
 * Subject-mean-tBodyAccJerk-std()-XYZ<br>
 Standard deviation of derived time domain body acceleratometer jerk signals for 
-on one of X, Y or Z axis
+on one of X, Y or Z axis. In standard gravity units "g".
 
 * Subject-mean-tBodyGyro-std()-XYZ<br>
-Standard deviation of time domain body gyro signals for on one of X, Y or Z axis 
+Standard deviation of time domain body gyro signals for on one of X, Y or Z axis. In radians per second. 
 
 * Subject-mean-tBodyGyroJerk-std()-XYZ<br>
 Standard deviation of derived time domain body gyro jerk signals for on one of 
-X, Y or Z axis
+X, Y or Z axis. In radians per second.
 
 * Subject-mean-tBodyAccMag-std()<br>
-Standard deviation of the magnitude of time domain body acceleratometer signals
+Standard deviation of the magnitude of time domain body acceleratometer signals. In standard gravity units "g".
 
 * Subject-mean-tGravityAccMag-std()<br>
 Standard deviation of the magnitude of time domain gravity acceleratometer 
-signals
+signals. In standard gravity units "g".
 
 * Subject-mean-tBodyAccJerkMag-std()<br>
 Standard deviation of the magnitude of derived time domain body acceleratometer 
-jerk signals
+jerk signals. In standard gravity units "g".
 
 * Subject-mean-tBodyGyroMag-std()<br>
-Standard deviation of the magnitude of time domain body gyro signals
+Standard deviation of the magnitude of time domain body gyro signals. In standard gravity units "g".
 
 * Subject-mean-tBodyGyroJerkMag-std()<br>
 Standard deviation of the magnitude of derived time domain body gyro jerk 
-signals
+signals. In radians per second.
 
 * Subject-mean-fBodyAcc-std()-XYZ<br>
 Standard deviation of frequency domain body acceleratometer signals for on one 
-of X, Y or Z axis 
+of X, Y or Z axis. In standard gravity units "g". 
 
 * Subject-mean-fBodyAccJerk-std()-XYZ<br>
 Standard deviation of derived frequency domain body acceleratometer jerk signals 
-for on one of X, Y or Z axis
+for on one of X, Y or Z axis. In standard gravity units "g".
 
 * Subject-mean-fBodyGyro-mean()-XYZ<br>
 Standard deviation of frequency domain body gyro signals for on one of X, Y or 
-Z axis
+Z axis. In radians per second.
 
 * Subject-mean-fBodyAccMag-mean()<br>
 Standard deviation of the magnitude of frequency domain body acceleratometer 
-signals
+signals. In standard gravity units "g".
 
 * Subject-mean-fBodyAccJerkMag-mean()<br>
 Standard deviation of the magnitude of derived frequency domain body 
-acceleratometer jerk signals
+acceleratometer jerk signals. In standard gravity units "g".
 
 * Subject-mean-fBodyGyroMag-mean()<br>
-Standard deviation of the magnitude of frequency domain body gyro signals
+Standard deviation of the magnitude of frequency domain body gyro signals. In radians per second.
 
 * Subject-mean-fBodyGyroJerkMag-mean()<br>
 Standard deviation of the magnitude of derived frequency domain body gyro jerk 
-signals
+signals. In radians per second.
